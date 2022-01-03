@@ -76,3 +76,30 @@ body {
   color: #000;
   font-size: 2em;
 }
+#footer {
+  margin-top: 80px;
+}
+#footer .footer .row {
+  display: flex;
+}
+#footer .row .col .logo {
+  margin: 38px 250px;
+  color: #fff;
+}
+#footer .col ul {
+  margin: 28px 296px;
+}
+#footer .col ul li {
+  list-style-type: none;
+}
+#footer .col ul li a{
+  text-decoration: none;
+  color: white;
+}
+.newslatter{
+  padding: 60px 60px;
+}
+.newslatter input {
+  font-size: 25px;
+  border-radius: 5px;
+}
