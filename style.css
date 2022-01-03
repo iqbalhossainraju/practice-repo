@@ -1,0 +1,78 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.logo {
+  float: left;
+  margin-left: 20%;
+  font-size: 2em;
+  color: red;
+}
+.nav ul {
+  margin-left: 70%;
+  display: flex;
+}
+.nav ul li {
+  list-style-type: none;
+  padding: 10px;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: red;
+}
+
+.image img {
+  margin-left: 18%;
+  height: 100%;
+  width: 70%;
+}
+.service {
+  display: flex;
+  text-align: center;
+  margin: 15px 183px;
+  padding: 10px 54px;
+}
+#service h2 {
+  text-align: center;
+  background: green;
+  margin-left: 25%;
+  margin-right: 25%;
+  color: white;
+  padding: 10px;
+}
+
+.log-img {
+  display: flex;
+  text-align: center;
+  margin-left: 25%;
+}
+}
+.log-img {
+  background: #000;
+}
+#blog {
+  margin-top: 80px;
+}
+#blog .row{
+  display: flex;
+  text-align: center;
+}
+#blog .row .card img{
+  height: 70%;
+    width: 45%;
+    border-radius: 135px;
+}
+.card-body ul {
+  display: flex;
+  margin: 0px 25%;
+
+}
+.card-body ul li {
+  list-style-type: none;
+  margin: 0px 20px;
+}
+.card-body ul li a{
+  text-decoration: none;
+  color: #000;
+  font-size: 2em;
+}
