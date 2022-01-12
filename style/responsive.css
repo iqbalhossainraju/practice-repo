@@ -1,0 +1,22 @@
+@media only screen and (max-width: 668px) {
+  .hero-warp {
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .image img {
+    width: 100%;
+  }
+  .domain-name {
+    width: 160px;
+  }
+  .domain-price {
+    flex-wrap: wrap;
+  }
+  .services {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .pricing-plan-area {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

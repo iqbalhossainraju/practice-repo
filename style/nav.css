@@ -1,0 +1,69 @@
+nav {
+  background-image: linear-gradient(
+    rgba(116, 185, 255, 1),
+    rgba(129, 236, 236, 1)
+  );
+  color: #fff;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ul {
+  display: flex;
+}
+ul > li {
+  list-style-type: none;
+  padding: 10px;
+}
+ul > li > a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+ul > li > a:hover {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* Header Image */
+.hero-warp {
+  display: flex;
+  background-color: rgba(108, 92, 231, 1);
+  height: 400px;
+  align-items: center;
+  justify-content: space-around;
+}
+/* .hero-box {
+  width: 50%;
+} */
+.image img {
+  width: 500px;
+}
+.description h2 {
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+}
+.description p {
+  color: rgb(255, 255, 255);
+}
+.description .link-button {
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(
+    rgba(214, 48, 49, 1),
+    rgba(255, 118, 117, 1)
+  );
+  font-size: 16px;
+  padding: 15px 30px;
+  border-radius: 8px;
+  border: none;
+  font-weight: 700;
+}
+.description .link-button:hover {
+  background-image: linear-gradient(
+    rgba(253, 121, 168, 1),
+    rgba(232, 67, 147, 1)
+  );
+}

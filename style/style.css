@@ -1,0 +1,126 @@
+/*-----------------------------------
+           Font Awsome Font
+           ----------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+/* Common Section */
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(248, 250, 255);
+  font-family: "Poppins", Arial, sans-serif;
+}
+main {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+/* Domain section */
+.domain-section {
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+.get-domain,
+.domain-form {
+  text-align: center;
+}
+.form-group input {
+  height: 55px;
+  outline: none;
+  border: transparent;
+}
+.domain-name {
+  width: 300px;
+}
+.search-domain {
+  background-color: rgb(34, 212, 123);
+  color: #fff;
+}
+.domain-price {
+  display: flex;
+  justify-content: center;
+}
+.domain-section ul li span {
+  color: rgb(36, 189, 201);
+}
+
+/* Services */
+.service-area {
+  text-align: center;
+  background-color: #fff;
+}
+.service-area h3 {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 100px;
+}
+.service-area span {
+  color: #24bdc9;
+  font-size: 14px;
+  font-size: 500;
+  display: block;
+  margin-bottom: 20px;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 26px;
+}
+.service-area-icon i {
+  font-size: 60px;
+  color: #22d47b;
+}
+/* Pricing Plan */
+.title {
+  text-align: center;
+}
+.title p {
+  color: #24bdc9;
+}
+.pricing-plan-area {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 25px;
+  justify-items: center;
+}
+.pricing-plans {
+  margin-top: 80px;
+  /* box-shadow: 4px 5px 15px 4px silver; */
+  border: 6px solid;
+  border-left: none;
+  border-top: none;
+  border-image: linear-gradient(rgba(9, 132, 227, 1), rgba(255, 118, 117, 1));
+  border-image-slice: 1;
+}
+.pricing-plan-box-1,
+.pricing-plan-box-2,
+.pricing-plan-box-3,
+.pricing-plan-box-4 {
+  background-color: #fff;
+  background: #fff;
+  text-align: center;
+  padding: 60px;
+}
+
+.pricing-plan-box {
+  background-color: #fff;
+}
+.price-heading {
+  background-color: rgb(36, 189, 201);
+  color: #fff;
+  width: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Blog */
+.blogs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+}
+.thumbnail img {
+  width: 252px;
+  height: 176px;
+}
