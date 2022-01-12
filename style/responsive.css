@@ -19,4 +19,7 @@
   .pricing-plan-area {
     grid-template-columns: repeat(1, 1fr);
   }
+  .blogs {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
